@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "predicates search",
+			"name": "Predicates search",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -34,6 +34,44 @@
 						{
 							"key": "email",
 							"value": "mo@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Specifications search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/specification-search?firstname=o&lastname=OUS&email=mo@gmail.com&minAge=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"specification-search"
+					],
+					"query": [
+						{
+							"key": "firstname",
+							"value": "o"
+						},
+						{
+							"key": "lastname",
+							"value": "OUS"
+						},
+						{
+							"key": "email",
+							"value": "mo@gmail.com"
+						},
+						{
+							"key": "minAge",
+							"value": "18"
 						}
 					]
 				}
