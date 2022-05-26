@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "6d3aba2a-bfbd-4f73-ba28-f2acacb1df77",
+		"name": "Spring-Data-JPA-Specifications",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15029088"
+	},
+	"item": [
+		{
+			"name": "predicates search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/predicate-search?firstname=o&lastname=OUS&email=mo@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"predicate-search"
+					],
+					"query": [
+						{
+							"key": "firstname",
+							"value": "o"
+						},
+						{
+							"key": "lastname",
+							"value": "OUS"
+						},
+						{
+							"key": "email",
+							"value": "mo@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
